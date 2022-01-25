@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:theme="@style/Theme.AppCompat.DayNight"
+    tools:context=".MainActivity">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/rollButton"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="96dp"-->
+    <!--        android:layout_marginLeft="96dp"-->
+    <!--        android:layout_marginEnd="96dp"-->
+    <!--        android:layout_marginRight="96dp"-->
+    <!--        android:layout_marginBottom="36dp"-->
+    <!--        android:text="@string/button"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        tools:text="ROLL" />-->
+
+    <!--    <SeekBar-->
+    <!--        android:id="@+id/seekBar"-->
+    <!--        style="@style/Widget.AppCompat.SeekBar.Discrete"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="32dp"-->
+    <!--        android:layout_marginLeft="32dp"-->
+    <!--        android:layout_marginEnd="32dp"-->
+    <!--        android:layout_marginRight="32dp"-->
+    <!--        android:layout_marginBottom="24dp"-->
+    <!--        android:max="10"-->
+    <!--        android:progress="3"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/rollButton"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.452"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/resultsTextView"-->
+    <!--        android:layout_width="296dp"-->
+    <!--        android:layout_height="361dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:textSize="144sp"-->
+    <!--        android:visibility="visible"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/seekBar"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.411"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/divider2"-->
+    <!--        app:layout_constraintVertical_bias="0.748"-->
+    <!--        tools:ignore="LabelFor" />-->
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:background="#BBD2D5"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
